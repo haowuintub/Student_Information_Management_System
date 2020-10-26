@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/haowu/Workspace/Projekte_Informatik/Student Information Management System/Student Information Management System/main.cpp
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
