@@ -253,7 +253,7 @@ void delete_record ()          /*输入5，调用delete_record ()函数，删除
     }
     else
     {
-        printf("Are you sure you want to delete the contact whose name is [%d]?(Y confirm, N cancel)",name);
+        printf("Are you sure you want to delete the contact whose name is [%s]?(Y confirm, N cancel)",name);
         getchar();
         input = getchar();
         if (input =='Y'|| input =='y')
